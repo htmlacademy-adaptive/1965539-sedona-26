@@ -1,0 +1,18 @@
+.greeting {
+  height: 389px;
+  background: url("../../img/back-mobile.jpg.jpg");
+  position: relative;
+  background-size: cover;
+  background-position: center;
+
+
+  &__text {
+    background: url("../../img/text-index.svg.svg");
+    position: absolute;
+    width: 282px;
+    height: 214px;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

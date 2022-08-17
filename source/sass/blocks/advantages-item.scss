@@ -1,0 +1,25 @@
+.advantages-item {
+  list-style: none;
+  text-align: center;
+  line-height: 21px;
+
+  &--wide {
+    background-color: #81b3d2;
+    color: #ffffff;
+  }
+
+  &__title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  &__description {
+    line-height: 21px;
+  }
+
+  &__number {
+    padding-top: 11px;
+    padding-bottom: 17px;
+  }
+
+}
