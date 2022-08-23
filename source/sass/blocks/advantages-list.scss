@@ -1,8 +1,6 @@
 .advantages-list {
+  list-style: none;
+  // display: grid;
+  // grid-template-columns: repeat(3, 1fr);
 
-&__item {
-
-padding: 30px 18px 20px;
-
-}
 }
