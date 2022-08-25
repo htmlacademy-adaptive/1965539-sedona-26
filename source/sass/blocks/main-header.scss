@@ -1,0 +1,19 @@
+.main-header {
+  position: relative;
+  &__menu {
+    height: 56px;
+    display: flex;
+  }
+
+  &__logo {
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    position: absolyte;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

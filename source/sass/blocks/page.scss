@@ -1,0 +1,10 @@
+.page {
+  text-transform: uppercase;
+
+  &__body {
+    min-width: $sm;
+    margin: 0;
+    font-family: "PT Sans";
+    font-size: 14px;
+  }
+}

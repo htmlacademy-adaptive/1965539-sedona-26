@@ -1,0 +1,38 @@
+.advantages-item {
+  list-style: none;
+  text-align: center;
+  line-height: 21px;
+  padding-top: 43px;
+  padding-bottom: 40px;
+  // border: 1px solid red;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+
+
+  &--primary {
+    background-color: #81b3d2;
+      color: #ffffff;
+  }
+
+  &--secondary {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #eeeeee;
+  }
+
+  &__title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  &__description {
+    line-height: 21px;
+  }
+
+  &__number {
+    padding-top: 11px;
+    padding-bottom: 17px;
+  }
+
+}
