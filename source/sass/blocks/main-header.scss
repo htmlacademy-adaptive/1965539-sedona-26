@@ -17,3 +17,20 @@
     transform: translateX(-50%);
   }
 }
+
+@media (min-width: $tablet-width) {
+
+  .main-nav__list {
+    display: flex;
+    justify-content: space-around;
+
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .main-nav__list {
+    display: flex;
+
+  }
+}
