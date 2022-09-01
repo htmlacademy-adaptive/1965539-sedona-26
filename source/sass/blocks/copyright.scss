@@ -29,63 +29,62 @@
 
 
 @media (min-width: $tablet-width) {
-
   .copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 0;
-
-  &:hover {
-    svg {
-      fill: #81b3d2;
-    }
-
-    .copyright__text {
-      color: #81b3d2;
-    }
-  }
-
-  &__text {
-    display: block;
-    color: #000000;
-    // margin-right: 5px;
-  }
-
-  &__link {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
+
+    &:hover {
+      svg {
+        fill: #81b3d2;
+      }
+
+      .copyright__text {
+        color: #81b3d2;
+      }
+    }
+
+    &__text {
+      display: block;
+      color: #000000;
+      // margin-right: 5px;
+    }
+
+    &__link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
-}
 }
 
 
 @media (min-width: $desktop-width) {
   .copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  &:hover {
-    svg {
-      fill: #81b3d2;
-    }
-
-    .copyright__text {
-      color: #81b3d2;
-    }
-  }
-
-  &__text {
-    display: block;
-    color: #000000;
-  }
-
-  &__link {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &:hover {
+      svg {
+        fill: #81b3d2;
+      }
+
+      .copyright__text {
+        color: #81b3d2;
+      }
+    }
+
+    &__text {
+      display: block;
+      color: #000000;
+    }
+
+    &__link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
-}
 }

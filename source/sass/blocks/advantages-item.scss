@@ -4,21 +4,16 @@
   line-height: 21px;
   padding-top: 43px;
   padding-bottom: 40px;
-  // border: 1px solid red;
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
-
 
   &--primary {
     background-color: #81b3d2;
-      color: #ffffff;
+    color: #ffffff;
   }
 
   &--secondary {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  background-color: #eeeeee;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #eeeeee;
   }
 
   &__title {
@@ -34,5 +29,4 @@
     padding-top: 11px;
     padding-bottom: 17px;
   }
-
 }

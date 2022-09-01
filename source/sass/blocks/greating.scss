@@ -5,7 +5,6 @@
   background-size: cover;
   background-position: center;
 
-
   &__text {
     background: url("../../img/text-index.svg.svg");
     position: absolute;
@@ -18,14 +17,12 @@
 }
 
 @media (min-width: $tablet-width) {
-
   .greeting {
     height: 518px;
     background: url("../../img/back-desktop.jpg.jpg");
     position: relative;
     background-size: cover;
     background-position: center;
-
 
     &__text {
       background: url("../../img/text-index.svg.svg");
@@ -37,7 +34,6 @@
       transform: translateX(-50%);
       background-repeat: no-repeat;
       background-size: cover;
-
     }
   }
 }
@@ -49,7 +45,6 @@
     position: relative;
     background-size: cover;
     background-position: center;
-
 
     &__text {
       background: url("../../img/text-index.svg.svg");
