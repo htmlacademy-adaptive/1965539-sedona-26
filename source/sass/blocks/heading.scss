@@ -14,3 +14,45 @@
   font-weight: 700;
   line-height: 26px;
 }
+
+@media (min-width: $tablet-width) {
+  .heading {
+    text-align: center;
+    line-height: 26px;
+    font-style: normal;
+    padding-top: 47px;
+    padding-bottom: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 520px;
+    flex-direction: column;
+  }
+
+  .heading h1 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .heading {
+    text-align: center;
+    line-height: 26px;
+    font-style: normal;
+    padding-top: 59px;
+    padding-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 483px;
+    flex-direction: column;
+  }
+
+  .heading h1 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+}

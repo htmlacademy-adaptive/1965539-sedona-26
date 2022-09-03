@@ -7,5 +7,40 @@
     padding-bottom: 33.5px;
     font-size: 21px;
   }
+}
 
+@media (min-width: $tablet-width) {
+  .main-footer {
+    height: 120px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__hashtag {
+      align-items: center;
+      padding-top: auto;
+      padding-bottom: auto;
+      font-size: 21px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-footer {
+    height: 120px;
+
+    &__wrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    &__hashtag {
+      align-items: center;
+      padding-top: auto;
+      padding-bottom: auto;
+      font-size: 21px;
+    }
+  }
 }
