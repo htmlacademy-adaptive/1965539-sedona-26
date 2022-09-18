@@ -4,6 +4,7 @@
   position: relative;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 
   &__text {
     background: url("../../img/text-index.svg.svg");
@@ -14,11 +15,32 @@
     left: 50%;
     transform: translateX(-50%);
   }
+
+  &__insert-left {
+    background-image: url("../../img/left-triangle.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 600px;
+    height: 57px;
+    bottom: 0;
+    right: 50%;
+  }
+
+  &__insert-right {
+    background-image: url("../../img/left-triangle.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 600px;
+    height: 57px;
+    bottom: 0;
+    left: 50%;
+    transform: scale(-1, 1); // отзеркалила
+  }
 }
 
 @media (min-width: $tablet-width) {
   .greeting {
-    height: 518px;
+    min-height: 518px;
     background: url("../../img/back-desktop.jpg.jpg");
     position: relative;
     background-size: cover;
@@ -35,12 +57,33 @@
       background-repeat: no-repeat;
       background-size: cover;
     }
+
+    &__insert-left {
+      background-image: url("../../img/left-triangle.png");
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 600px;
+      height: 57px;
+      bottom: -1px;
+      right: 50%;
+    }
+
+    &__insert-right {
+      background-image: url("../../img/left-triangle.png");
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 600px;
+      height: 57px;
+      bottom: -1px;
+      left: 50%;
+      transform: scale(-1, 1); // отзеркалила
+    }
   }
 }
 
 @media (min-width: $desktop-width) {
   .greeting {
-    height: 518px;
+    min-height: 518px;
     background: url("../../img/back-desktop.jpg.jpg");
     position: relative;
     background-size: cover;
@@ -56,6 +99,27 @@
       transform: translateX(-50%);
       background-repeat: no-repeat;
       background-size: cover;
+    }
+
+    &__insert-left {
+      background-image: url("../../img/left-triangle.png");
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 600px;
+      height: 57px;
+      bottom: -1px;
+      right: 50%;
+    }
+
+    &__insert-right {
+      background-image: url("../../img/left-triangle.png");
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 600px;
+      height: 57px;
+      bottom: -1px;
+      left: 50%;
+      transform: scale(-1, 1); // отзеркалила
     }
   }
 }

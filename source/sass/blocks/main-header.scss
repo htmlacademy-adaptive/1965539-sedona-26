@@ -7,10 +7,8 @@
   }
 
   &__logo {
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 1;
-    position: absolyte;
+    z-index: 5;
+    position: absolute;
     text-align: center;
     top: 0;
     left: 50%;
@@ -18,7 +16,17 @@
   }
 }
 
+@media (max-width: $mobile-width-only) {
+  .main-header__logo--nojs .main-link {
+    display: none;
+  }
+}
+
 @media (min-width: $tablet-width) {
+  .main-header {
+    position: relative;
+  }
+
   .main-nav__list {
     display: flex;
     justify-content: space-around;
@@ -26,7 +34,13 @@
 }
 
 @media (min-width: $desktop-width) {
-  .main-nav__list {
-    display: flex;
+  .main-header {
+    position: relative;
+  }
+
+  .main-nav {
+    &__list {
+      display: flex;
+    }
   }
 }
