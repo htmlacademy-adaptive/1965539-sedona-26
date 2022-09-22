@@ -26,11 +26,11 @@
     line-height: 21px;
     margin: 32px 18px;
 
-    :hover {
+    &:hover {
       background-color: #669ec0;
     }
 
-    :active {
+    &:active {
       color: #87b5d1;
     }
   }

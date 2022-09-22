@@ -52,6 +52,11 @@
   }
 }
 
+.advantages-item--unmarked .advantages-item__title {
+  display: flex;
+  align-items: center;
+}
+
 @media (max-width: $mobile-width-only) {
   .advantages-item {
     &--primary {
@@ -68,7 +73,13 @@
     }
   }
 
-  .triangle {
+  .advantages-item--unmarked .advantages-item__description {
+    grid-column: span 2;
+    padding-left: 78px;
+    text-align: start;
+  }
+
+  .advantages-item--triangle svg {
     z-index: 5;
     position: absolute;
     transform: translateX(-50%);
@@ -105,44 +116,17 @@
       padding-top: 0;
       padding-bottom: 0;
     }
-
-    &__title--unmarked {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 27px;
-      margin-bottom: 27px;
-    }
-
-    &__description--unmarked {
-      text-align: center;
-    }
   }
-}
 
-@media (min-width: $desktop-width) {
-  .advantages-item {
-    &__icon {
-      position: static;
-      left: 0;
-      top: 0;
-      transform: none;
-      text-align: center;
-    }
+  .advantages-item--unmarked .advantages-item__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 27px;
+    margin-bottom: 27px;
+  }
 
-    &--unmarked {
-      display: grid;
-      grid-template-columns: 1fr;
-    }
-
-    &__title--unmarked {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    &__description--unmarked {
-      text-align: center;
-    }
+  .advantages-item--unmarked .advantages-item__description {
+    text-align: center;
   }
 }

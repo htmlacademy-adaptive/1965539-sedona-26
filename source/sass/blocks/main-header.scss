@@ -26,21 +26,10 @@
   .main-header {
     position: relative;
   }
-
-  .main-nav__list {
-    display: flex;
-    justify-content: space-around;
-  }
 }
 
 @media (min-width: $desktop-width) {
   .main-header {
     position: relative;
-  }
-
-  .main-nav {
-    &__list {
-      display: flex;
-    }
   }
 }
