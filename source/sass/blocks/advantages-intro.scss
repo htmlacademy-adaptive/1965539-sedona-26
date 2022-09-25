@@ -3,3 +3,12 @@
   margin-top: 35px;
   margin-bottom: 16px;
 }
+
+
+@media (min-width: $tablet-width) {
+  .advantages-intro {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 0;
+  }
+}

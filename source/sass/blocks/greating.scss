@@ -1,12 +1,13 @@
 .greeting {
   height: 389px;
-  background: url("../../img/back-mobile.jpg.jpg");
+  background-image: url("./../img/back-mobile.jpg.jpg");
   position: relative;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 
   &__text {
-    background: url("../../img/text-index.svg.svg");
+    background-image: url("./../img/text-index.svg.svg");
     position: absolute;
     width: 282px;
     height: 214px;
@@ -14,46 +15,38 @@
     left: 50%;
     transform: translateX(-50%);
   }
+
+  &__insert-left {
+    background-image: url("./../img/left-triangle.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 600px;
+    height: 57px;
+    bottom: -1px;
+    right: 50%;
+  }
+
+  &__insert-right {
+    background-image: url("./../img/left-triangle.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 600px;
+    height: 57px;
+    bottom: -1px;
+    left: 50%;
+    transform: scale(-1, 1); // отзеркалила
+  }
 }
 
 @media (min-width: $tablet-width) {
   .greeting {
-    height: 518px;
-    background: url("../../img/back-desktop.jpg.jpg");
-    position: relative;
-    background-size: cover;
-    background-position: center;
+    min-height: 518px;
+    background-image: url("./../img/back-desktop.jpg.jpg");
 
     &__text {
-      background: url("../../img/text-index.svg.svg");
-      position: absolute;
       width: 461px;
       height: 350px;
       top: 77px;
-      left: 50%;
-      transform: translateX(-50%);
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .greeting {
-    height: 518px;
-    background: url("../../img/back-desktop.jpg.jpg");
-    position: relative;
-    background-size: cover;
-    background-position: center;
-
-    &__text {
-      background: url("../../img/text-index.svg.svg");
-      position: absolute;
-      width: 460px;
-      height: 350px;
-      top: 77px;
-      left: 50%;
-      transform: translateX(-50%);
       background-repeat: no-repeat;
       background-size: cover;
     }

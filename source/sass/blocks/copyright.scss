@@ -27,7 +27,6 @@
   }
 }
 
-
 @media (min-width: $tablet-width) {
   .copyright {
     display: flex;
@@ -48,7 +47,6 @@
     &__text {
       display: block;
       color: #000000;
-      // margin-right: 5px;
     }
 
     &__link {
@@ -58,7 +56,6 @@
     }
   }
 }
-
 
 @media (min-width: $desktop-width) {
   .copyright {

@@ -1,5 +1,5 @@
 .advantages-image {
-  height: 260px;
+  height: 256px;
   margin-left: 0;
   margin-right: 0;
   background-color: #e7b9a2;
@@ -8,15 +8,7 @@
 .advantages-image img {
   width: 100%;
   height: 100%;
-
+  object-fit: cover;
   position: relative;
-
-  img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
 }
+
